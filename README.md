@@ -19,6 +19,10 @@ Compartments provide isolation and access control boundaries, allowing you to de
 Resources within a compartment inherit policies and permissions defined at the compartment level.
 In summary, a tenancy represents your entire OCI account and serves as the top-level administrative boundary, while compartments are used to organize resources within the tenancy into logical groups for better management, isolation, and access control. Think of a tenancy as the overarching organization and compartments as the subdivisions within that organization for organizing resources.
 ```
+# VCN IP address range:
+/16 through /30
+32-16=16
+2^16 = 65,536 IP address
 
 # CIDR Notation
 CIDR presentation: A.B.C.D/x
